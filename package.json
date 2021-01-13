@@ -19,5 +19,8 @@
   "homepage": "https://github.com/MrIronManFe/-#readme",
   "dependencies": {
     "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "snowpack": "^2.18.5"
   }
 }
