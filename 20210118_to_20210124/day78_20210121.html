@@ -1,0 +1,36 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>京程一灯，每日一题</title>
+</head>
+
+<body>
+    <!--
+        1.Script放在底部还会影响dom的解析和渲染吗？ 不会
+        2.Script内部的代码执行会等待css加载完吗？   会
+        3.css加载会影响DOMContentLoaded么？ 如果css里面没有script代码，就不会
+    -->
+    <link href="https://cdn/css/bootstrap.css" ref="stylesheet">
+    <h1>京程一灯</h1>
+    <script>
+        console.log("DOMContentLoaded");
+    </script>
+</body>
+
+</html>
+
+<!--  -->
