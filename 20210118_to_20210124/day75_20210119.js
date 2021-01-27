@@ -1,15 +1,15 @@
-var F = function() {}
-Object.prototype.a = function() {
+var F = function () { }
+Object.prototype.a = function () {
     console.log('yideng')
 }
-Function.prototype.b = function() {
+Function.prototype.b = function () {
     console.log('xuetang')
 }
 var f = new F()
 F.a(); //'yideng'
 F.b(); //'xuetang'
-f.a(); //no function
-f.b(); //xuetang
+f.a(); //yideng
+f.b(); //报错
 
 /*
 // 答案

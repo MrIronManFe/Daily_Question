@@ -35,7 +35,7 @@
 
 
 // 代码实现
-var isValid = function(s) {
+var isValid = function (s) {
     let stack = [];
     var obj = {
         "[": "]",
@@ -48,6 +48,7 @@ var isValid = function(s) {
             // 如果是左括号，就进栈
             stack.push(s[i]);
         } else {
+            // key是左括号
             var key = stack.pop();
             // 如果栈顶元素不相同，就返回false
             if (obj[key] !== s[i]) {

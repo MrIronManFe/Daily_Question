@@ -2,8 +2,8 @@ var arr1 = "ab".split(''); //=>[a,b]
 var arr2 = arr1.reverse(); //=>[b,a]
 var arr3 = "abc".split(''); //=>[a,b,c]
 arr2.push(arr3); //=>[b,a,[a,b,c]]
-console.log(arr1.length); //=>2
-console.log(arr1.slice(-1)); //=>b
+console.log(arr1.length); //=>3,arr2和arr1是同一个引用
+console.log(arr1.slice(-1)); //=>[a,b,c]
 console.log(arr2.length); //=>3
 console.log(arr2.slice(-1)); //=>[a,b,c]
 

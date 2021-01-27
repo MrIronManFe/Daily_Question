@@ -1,14 +1,14 @@
 function yideng(n, o) {
     console.log(o); // ？
     return {
-        yideng: function(m) {
+        yideng: function (m) {
             // 返回记录得就是这个n
             return yideng(m, n);
         }
     }
 }
-const a = yideng(0); //返回一个对象，a.yideng是一个方法，返回一个方法
-a.yideng(1);
+const a = yideng(0);//第一次调用,m=0.返回一个函数yideng(1,undefined),所以console.log(o)就是undefined
+a.yideng(1);//第二次调用，此时a.yideng=function(m)，a.yideng(1),function(1)，此时m=1,n呢？此时的n等于第一次调用yideng(m,n)的m，就是0
 a.yideng(2);
 a.yideng(3);
 const b = yideng(0).yideng(1).yideng(2).yideng(3);
