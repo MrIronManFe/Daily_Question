@@ -32,3 +32,6 @@ mounted(){
 // 子组件触发 mounted 钩子函数 ...
 // 父组件监听到 mounted 钩子函数 ...
 */
+
+// https://ustbhuangyi.github.io/vue-analysis/v2/components/lifecycle.html#beforecreate-created
+// https://www.cnblogs.com/mengfangui/p/12546866.html
