@@ -2,7 +2,7 @@
   "name": "daily_question",
   "version": "1.0.0",
   "description": "",
-  "main": "day1.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,10 +17,10 @@
     "url": "https://github.com/MrIronManFe/-/issues"
   },
   "homepage": "https://github.com/MrIronManFe/-#readme",
-  "dependencies": {
-    "lodash": "^4.17.20"
-  },
   "devDependencies": {
-    "snowpack": "^2.18.5"
+    "snowpack": "^3.0.11"
+  },
+  "dependencies": {
+    "vue": "^2.6.12"
   }
 }
